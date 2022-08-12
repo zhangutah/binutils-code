@@ -1,0 +1,18 @@
+stabs_generate_asm_func.void_emitted_p	i8
+current_function_label	i8*
+stabs_generate_asm_endfunc.label_count	i32
+stabs_generate_asm_lineno.label_count	i32
+in_dot_func_p	i8
+stabs_generate_asm_lineno.prev_lineno	i32
+stabs_generate_asm_lineno.prev_file	i8*
+input_line_pointer	i8*
+outputting_stabs_line_debug	i32
+s_stab_generic.cached_sec	%struct.bfd_section*
+now_seg	%struct.bfd_section*
+now_subseg	i32
+frag_now	%struct.frag*
+notes	%struct.obstack = type { i64, %struct._obstack_chunk*, i8*, i8*, i8*, %union.anon.22, i64, %union.anon.23, %union.anon.24, i8*, i8 }
+use_gnu_debug_info_extensions	i32
+generate_asm_file.last_file	i8*
+listing	i32
+generate_asm_file.label_count	i32

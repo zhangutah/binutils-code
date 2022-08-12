@@ -1,0 +1,18 @@
+state_stack_p	i32*
+ldfile_assumed_script	i8
+yy_flex_debug	i32
+sysrooted_stack	[10 x i32]
+file_name_stack	[10 x i8*]
+yy_last_accepting_cpos	i8*
+yy_hold_char	i8
+yytext	i8*
+yylval	%union.YYSTYPE = type { %struct.wildcard_spec }
+parser_input	i32
+yylineno	i32
+input_flags	%struct.lang_input_statement_flags = type { i16, %struct.lang_input_statement_flags* }
+yy_c_buf_p	i8*
+lineno	i32
+include_stack_ptr	i32
+vers_node_nesting	i32
+include_stack	[10 x %struct.yy_buffer_state*]
+lineno_stack	[10 x i32]

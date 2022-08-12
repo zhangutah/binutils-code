@@ -1,0 +1,11 @@
+internal_mode	i32
+idx	i32
+internal_wanted	i32
+ptr	%struct.buffer*
+stack	[50 x %struct.buffer]
+warning	i32
+root	%struct.dict_struct*
+pc	void (...)**
+istack	[50 x i64]
+isp	i64*
+tos	%struct.buffer*

@@ -1,0 +1,7 @@
+init_syntax_once.done	i32
+re_comp_buf	%struct.re_pattern_buffer = type { i8*, i64, i64, i64, i8*, i8*, i64, i8 }
+re_syntax_table	[256 x i8]
+xre_syntax_options	i64
+xre_max_failures	i32
+byte_reg_unset_dummy	i8
+re_error_msgid	[17 x i8*]

@@ -1,0 +1,1 @@
+bfd_default_vector	[2 x %struct.bfd_target*]

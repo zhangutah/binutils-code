@@ -1,0 +1,3 @@
+bfd_get_archive_filename.buf	i8*
+program_name	i8*
+bfd_get_archive_filename.curr	i64

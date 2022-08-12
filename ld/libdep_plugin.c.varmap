@@ -1,0 +1,9 @@
+line_head	%struct.linerec*
+tv_set_extra_library_path	i32 (i8*)*
+line_tail	%struct.linerec**
+tv_register_claim_file	i32 (i32 (%struct.ld_plugin_input_file*, i32*)*)*
+tv_message	i32 (i32, i8*, ...)*
+prevfile	i8*
+tv_register_all_symbols_read	i32 (i32 ()*)*
+tv_register_cleanup	i32 (i32 ()*)*
+tv_add_input_library	i32 (i8*)*

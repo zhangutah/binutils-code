@@ -1,0 +1,56 @@
+print_symbol.secs	%struct.bfd_section**
+print_symbol.symcount	i64
+allow_special_symbols	i32
+defined_only	i32
+sorters	[2 x [2 x i32 (i8*, i8*)*]]
+print_symbol.relocs	%struct.reloc_cache_entry***
+ifunc_type_chars	i8*
+optind	i32
+program_name	i8*
+optarg	i8*
+reverse_sort	i32
+print_armap	i32
+plugin_target	i8*
+print_symbol.seccount	i32
+sort_bfd	%struct.bfd*
+filename_per_symbol	i32
+print_debug_syms	i32
+other_format	[5 x i8]
+report_plugin_err	i8
+show_version	i32
+long_options	[36 x %struct.option]
+dynamic	i32
+quiet	i32
+print_size	i32
+external_only	i32
+unicode_display	i32
+target	i8*
+do_demangle	i32
+sort_numerically	i32
+lineno_cache_rel_bfd	%struct.bfd*
+no_sort	i32
+sort_dynamic	i8
+demangle_flags	i32
+undefined_only	i32
+sort_by_size	i32
+line_numbers	i32
+filename_per_file	i32
+print_format	i32
+formats	[4 x %struct.output_fns]
+format	%struct.output_fns*
+print_radix	i32
+desc_format	[5 x i8]
+lineno_cache_bfd	%struct.bfd*
+get_elf_symbol_type.bufp	i8*
+print_width	i32
+convert_utf8.buffer	i8*
+print_format_string	i8*
+sort_y	%struct.bfd_symbol*
+convert_utf8.buffer_len	i64
+_bfd_std_section	[4 x %struct.bfd_section]
+print_symbol.syms	%struct.bfd_symbol**
+get_coff_symbol_type.bufp	i8*
+show_synthetic	i32
+print_symbol.relcount	i64*
+with_symbol_versions	i32
+sort_x	%struct.bfd_symbol*

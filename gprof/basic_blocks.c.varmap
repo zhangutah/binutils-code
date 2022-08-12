@@ -1,0 +1,17 @@
+bb_min_calls	i64
+bb_table_length	i32
+num_executable_lines	i64
+num_lines_executed	i64
+bb_annotate_all_lines	i8
+bb_read_rec.user_warned	i8
+annotate_with_count.last_count	i64
+line_granularity	i8
+gmon_file_version	i32
+whoami	i8*
+symtab	%struct.Sym_Table = type { i32, %struct.sym*, %struct.sym* }
+core_bfd	%struct.bfd*
+syms	[12 x %struct.Sym_Table]
+first_output	i8
+ignore_zeros	i8
+debug_level	i32
+first_src_file	%struct.source_file*

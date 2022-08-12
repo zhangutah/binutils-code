@@ -1,0 +1,6 @@
+input_line_pointer	i8*
+generic_floating_point_number	%struct.FLONUM_STRUCT = type { i16*, i16*, i16*, i64, i8 }
+atof_ieee_detail.bits	[12 x i16]
+littlenum_pointer	i16*
+bits_left_in_littlenum	i32
+littlenums_left	i32

@@ -1,0 +1,4 @@
+_libctf_version	i32
+open_errors	%struct.ctf_list = type { %struct.ctf_list*, %struct.ctf_list* }
+libctf_init_debug.inited	i32
+_libctf_debug	i32

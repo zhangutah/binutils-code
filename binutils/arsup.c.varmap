@@ -1,0 +1,9 @@
+deterministic	i32
+obfd	%struct.bfd*
+program_name	i8*
+temp_name	i8*
+outfile	%struct._IO_FILE*
+interactive	i32
+real_name	i8*
+verbose	i32
+temp_fd	i32

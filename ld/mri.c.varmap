@@ -1,0 +1,9 @@
+alias	%struct.section_name_struct*
+subalignment	%struct.section_name_struct*
+alignment	%struct.section_name_struct*
+only_load	%struct.section_name_struct*
+symbol_truncate	i32
+address	%struct.section_name_struct*
+order	%struct.section_name_struct*
+base	%union.etree_union*
+done_tree	i32

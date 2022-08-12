@@ -1,0 +1,4 @@
+whoami	i8*
+symtab	%struct.Sym_Table = type { i32, %struct.sym*, %struct.sym* }
+debug_level	i32
+syms	[12 x %struct.Sym_Table]

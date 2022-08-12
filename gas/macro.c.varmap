@@ -1,0 +1,9 @@
+macro_expand_body.loccnt	i32
+lex_type	[0 x i8]
+macro_defined	i32
+macro_number	i32
+macro_hash	%struct.htab*
+macro_expr	i64 (i8*, i64, %struct.sb*, i64*)*
+macro_strip_at	i32
+macro_alternate	i32
+macro_mri	i32

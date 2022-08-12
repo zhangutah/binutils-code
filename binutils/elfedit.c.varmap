@@ -1,0 +1,23 @@
+byte_get	i64 (i8*, i32)*
+elf_header	%struct.elf_internal_ehdr = type { [16 x i8], i64, i64, i64, i64, i64, i16, i16, i32, i32, i32, i32, i32, i32 }
+archive_file_offset	i64
+disable_x86_features	i32
+enable_x86_features	i32
+ehdr32	%struct.Elf32_External_Ehdr = type { [16 x i8], [2 x i8], [2 x i8], [4 x i8], [4 x i8], [4 x i8], [4 x i8], [4 x i8], [2 x i8], [2 x i8], [2 x i8], [2 x i8], [2 x i8], [2 x i8] }
+program_name	i8*
+output_elf_abiversion	i32
+optind	i32
+output_elf_class	i32
+input_elf_class	i32
+output_elf_machine	i32
+ehdr64	%struct.Elf64_External_Ehdr = type { [16 x i8], [2 x i8], [2 x i8], [4 x i8], [8 x i8], [8 x i8], [8 x i8], [4 x i8], [2 x i8], [2 x i8], [2 x i8], [2 x i8], [2 x i8], [2 x i8] }
+input_elf_machine	i32
+options	[13 x %struct.option]
+byte_put	void (i8*, i64, i32)*
+optarg	i8*
+input_elf_type	i32
+output_elf_type	i32
+archive_file_size	i64
+input_elf_osabi	i32
+output_elf_osabi	i32
+input_elf_abiversion	i32

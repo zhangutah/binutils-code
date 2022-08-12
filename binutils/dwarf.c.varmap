@@ -1,0 +1,71 @@
+display_debug_pubnames_worker.warned	i32
+check_gnu_debuglink.buffer	[8192 x i8]
+regname.reg	[64 x i8]
+get_FORM_name.buffer	[100 x i8]
+get_AT_name.buffer	[100 x i8]
+get_TAG_name.buffer	[100 x i8]
+dwarf_vmatoa_1.buf_pos	i32
+get_DW_SECT_short_name.buf	[16 x i8]
+regname_internal_riscv.csr_name	[10 x i8]
+state_machine_regs	%struct.State_Machine_Registers = type { i64, i32, i32, i32, i32, i32, i32, i8, i8, i32 }
+loc_views	i64*
+eh_addr_size	i32
+do_trace_info	i32
+do_debug_pubtypes	i32
+num_abbrev_map_entries	i64
+process_debug_info.num_bogus_warns	i32
+shndx_pool	i32*
+need_base_address	i32
+debug_information	%struct.debug_info*
+num_debug_info_entries	i32
+do_debug_ranges	i32
+dwarf_check	i32
+dwarf_regnames_lookup_func	i8* (i32)*
+loc_offsets	i64*
+do_debug_abbrevs	i32
+byte_get	i64 (i8*, i32)*
+alloc_num_debug_info_entries	i32
+dwarf_cutoff_level	i32
+next_free_abbrev_map_entry	i64
+dwarf_vmatoa_1.buf	[16 x %struct.dwarf_vmatoa_buf]
+debug_displays	[45 x %struct.dwarf_section_display]
+first_dwo_info	%struct.dwo_info*
+get_IDX_name.buffer	[100 x i8]
+do_debug_aranges	i32
+first_separate_info	%struct.separate_info*
+do_debug_info	i32
+dwarf_regnames	i8**
+dwarf_regnames_count	i32
+cu_tu_indexes_read	i32
+display_debug_frames.fde_fc	%struct.Frame_Chunk = type { %struct.Frame_Chunk*, i8*, i32, i16*, i32*, i8*, i32, i32, i64, i64, i32, i64, i32, i8, i8, i8, i8 }
+do_debug_loc	i32
+do_debug_links	i32
+do_follow_links	i32
+do_debug_frames	i32
+print_addr_index.buf	[15 x i8]
+cu_abbrev_map	%struct.abbrev_map*
+cu_count	i32
+do_debug_frames_interp	i32
+do_debug_str_offsets	i32
+level_type_signed	[256 x i8]
+have_frame_base	i32
+dwarf_start_die	i64
+do_wide	i32
+load_build_id_debug_file.prefixes	[6 x i8*]
+do_trace_abbrevs	i32
+shndx_pool_used	i32
+need_dwo_info	i8
+tu_count	i32
+do_checks	i8
+abbrev_lists	%struct.abbrev_list*
+do_debug_cu_index	i32
+do_debug_addr	i32
+shndx_pool_size	i32
+do_gdb_index	i32
+do_debug_lines	i32
+tu_sets	%struct.cu_tu_set*
+do_debug_macinfo	i32
+do_debug_pubnames	i32
+cu_sets	%struct.cu_tu_set*
+do_debug_str	i32
+do_trace_aranges	i32

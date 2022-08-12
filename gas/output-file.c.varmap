@@ -1,0 +1,3 @@
+flag_always_generate_output	i8
+stdoutput	%struct.bfd*
+flag_traditional_format	i32

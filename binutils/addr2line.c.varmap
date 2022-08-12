@@ -1,0 +1,20 @@
+discriminator	i32
+line	i32
+filename	i8*
+found	i8
+with_addresses	i8
+optarg	i8*
+with_functions	i8
+pc	i64
+addr	i8**
+program_name	i8*
+naddr	i32
+long_options	[16 x %struct.option]
+base_names	i8
+functionname	i8*
+pretty_print	i8
+syms	%struct.bfd_symbol**
+do_demangle	i8
+optind	i32
+demangle_flags	i32
+unwind_inlines	i8

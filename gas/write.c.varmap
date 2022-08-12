@@ -1,0 +1,29 @@
+symbol_table_frozen	i32
+target_big_endian	i32
+flag_generate_build_notes	i8
+expr_section	%struct.bfd_section*
+frchain_now	%struct.frchain*
+data_section	%struct.bfd_section*
+stdoutput	%struct.bfd*
+n_fixups	i32
+_bfd_std_section	[4 x %struct.bfd_section]
+notes	%struct.obstack = type { i64, %struct._obstack_chunk*, i8*, i8*, i8*, %union.anon.22, i64, %union.anon.23, %union.anon.24, i8*, i8 }
+symbol_rootP	%struct.symbol*
+linkrelax	i32
+dot_frag	%struct.frag*
+frags_chained	i32
+frag_now	%struct.frag*
+flag_readonly_data_in_text	i8
+now_seg	%struct.bfd_section*
+dot_value	i64
+finalize_syms	i32
+indent_level	i32
+reg_section	%struct.bfd_section*
+symbol_lastP	%struct.symbol*
+do_not_pad_sections_to_alignment	i32
+flag_compress_debug	i32
+abs_section_sym	%struct.symbol*
+flag_always_generate_output	i8
+flag_use_elf_stt_common	i32
+text_section	%struct.bfd_section*
+reloc_list	%struct.reloc_list*

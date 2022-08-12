@@ -1,0 +1,18 @@
+symbol_map_count	i32
+arcs	%struct.arc**
+numarcs	i32
+print_path	i8
+cycle_header	%struct.sym*
+ignore_zeros	i8
+num_cycles	i32
+print_descriptions	i8
+output_width	i32
+symbol_map	%struct.function_map*
+symtab	%struct.Sym_Table = type { i32, %struct.sym*, %struct.sym* }
+bsd_style_output	i8
+line_granularity	i8
+debug_level	i32
+hz	i64
+first_output	i8
+hist_scale	double
+print_time	double

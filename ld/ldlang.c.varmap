@@ -1,0 +1,79 @@
+start_stop_syms	%struct.bfd_link_hash_entry**
+start_stop_alloc	i64
+start_stop_count	i64
+winner	%struct.bfd_target*
+version_index	i32
+current_demangling_style	i32
+overlay_list	%struct.overlay_list*
+delete_output_file_on_failure	i8
+overlay_subalign	%union.etree_union*
+overlay_vma	%union.etree_union*
+unique_section_list	%struct.unique_sections*
+nocrossref_list	%struct.lang_nocrossrefs*
+lang_float_flag	i8
+map_option_f	i8
+lang_phdr_list	%struct.lang_phdr*
+sort_section	i32
+ldfile_output_machine	i64
+ldfile_output_architecture	i32
+plugin_insert	%struct.lang_input_statement_struct*
+plugin_undefs	%struct.bfd_link_hash_entry*
+had_output_filename	i8
+lang_memory_region_list_tail	%struct.memory_region_struct**
+default_common_section	%struct.lang_output_section_statement_struct*
+output_target	i8*
+require_defined_symbol_list	%struct.require_defined_symbol*
+lang_sizing_iteration	i32
+input_flags	%struct.lang_input_statement_flags = type { i16, %struct.lang_input_statement_flags* }
+overlay_max	%union.etree_union*
+abs_output_section	%struct.lang_output_section_statement_struct*
+_bfd_std_section	[4 x %struct.bfd_section]
+asneeded_list_head	%struct.asneeded_minfo*
+lang_one_common.header_printed	i8
+prefer_next_section	i8
+stat_save_ptr	%struct.statement_list**
+expld	%struct.ldexp_control = type { i32, i8, i8, i8*, %struct.bfd_link_hash_entry*, %struct.etree_value_type, i64, i64*, %struct.bfd_section*, %struct.seg_align_type }
+lang_insert_orphan.first_orphan_note	%struct.bfd_section*
+statement_list	%struct.statement_list = type { %union.lang_statement_union*, %union.lang_statement_union** }
+lang_memory_region_list	%struct.memory_region_struct*
+print_dot	i64
+constructors_sorted	i8
+stat_save	[10 x %struct.statement_list*]
+saved_script_handle	%struct._IO_FILE*
+ld_sysroot	i8*
+output_filename	i8*
+lang_has_input_file	i8
+first_file	%struct.lang_input_statement_struct*
+current_input_file	i8*
+link_info	%struct.bfd_link_info = type { [9 x i8], i8, i8, i32, i64, i32, %struct.bfd_link_callbacks*, %struct.bfd_link_hash_table*, %struct.bfd_hash_table*, %struct.bfd_hash_table*, %struct.bfd_hash_table*, %struct.bfd_hash_table*, %struct.bfd*, %struct.bfd*, %struct.bfd*, %struct.bfd**, %struct.bfd_section*, %struct.bfd_sym_chain*, i8*, i8*, i8*, i32, i32, i32, i32, i32, i32, i32, i32, i32, i8*, i64, i64, i64, i32, i32, i64, i64, i64, i64, %struct.bfd_elf_dynamic_list*, %struct.bfd_elf_version_tree*, i64, i64 }
+output_section_statement_table	%struct.bfd_hash_table = type { %struct.bfd_hash_entry**, %struct.bfd_hash_entry* (%struct.bfd_hash_entry*, %struct.bfd_hash_table*, i8*)*, i8*, i32, i32, i32, i8 }
+insert_pad.zero_fill	%struct._fill_type = type { i64, [1 x i8] }
+input_file_chain	%struct.statement_list = type { %union.lang_statement_union*, %union.lang_statement_union** }
+map_head_is_link_order	i8
+map_obstack	%struct.obstack = type { i64, %struct._obstack_chunk*, i8*, i8*, i8*, %union.anon.28, i64, %union.anon.29, %union.anon.30, i8*, i8 }
+asneeded_list_tail	%struct.asneeded_minfo**
+opb_shift	i32
+stat_obstack	%struct.obstack = type { i64, %struct._obstack_chunk*, i8*, i8*, i8*, %union.anon.28, i64, %union.anon.29, %union.anon.30, i8*, i8 }
+excluded_libs	%struct.excluded_lib*
+trace_files	i32
+config	%struct.ld_config_type = type { i8, i8, i8, i8, i8, i8, i8, i32, i8, i8, i8, i32, i8, i8, i8, i8, i8, i8, i8, i8*, %struct._IO_FILE*, i8*, i32, i64, i64, i8, i8, i8 }
+verbose	i8
+ldfile_assumed_script	i8
+parser_input	i32
+entry_section	i8*
+lang_os_list	%struct.statement_list = type { %union.lang_statement_union*, %union.lang_statement_union** }
+g_switch_value	i32
+constructor_list	%struct.statement_list = type { %union.lang_statement_union*, %union.lang_statement_union** }
+current_target	i8*
+entry_symbol_default	i8*
+file_chain	%struct.statement_list = type { %union.lang_statement_union*, %union.lang_statement_union** }
+default_target	i8*
+ctf_output	%struct.ctf_dict*
+current_assign	%struct.lang_assignment_statement_type*
+current_section	%struct.lang_output_section_statement_struct*
+lang_statement_iteration	i32
+entry_symbol	%struct.bfd_sym_chain = type { %struct.bfd_sym_chain*, i8* }
+previous_script_handle	%struct._IO_FILE*
+entry_from_cmdline	i8
+stat_ptr	%struct.statement_list*
+command_line	%struct.args_type = type { i8, i8, i8, i8, i8, i8, i8, i8, i8*, i8, i8, i8, i32, i8*, i8*, i8*, i8*, i8*, i8**, i8*, i8* }

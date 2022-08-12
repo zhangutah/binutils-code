@@ -1,0 +1,13 @@
+first_output	i8
+gmon_input	i32
+symtab	%struct.Sym_Table = type { i32, %struct.sym*, %struct.sym* }
+core_bfd	%struct.bfd*
+file_format	i32
+histograms	%struct.histogram*
+gmon_file_version	i32
+whoami	i8*
+hz	i64
+num_histograms	i32
+debug_level	i32
+hist_scale	double
+output_style	i32

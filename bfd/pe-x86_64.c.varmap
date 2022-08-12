@@ -1,0 +1,3 @@
+_bfd_std_section	[4 x %struct.bfd_section]
+pe_saved_coff_bfd_copy_private_bfd_data	i1 (%struct.bfd*, %struct.bfd*)*
+pe_saved_coff_bfd_print_private_bfd_data	i1 (%struct.bfd*, i8*)*

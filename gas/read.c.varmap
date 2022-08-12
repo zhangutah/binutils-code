@@ -1,0 +1,61 @@
+reloc_list	%struct.reloc_list*
+s_reloc.bfd_relocs	[5 x %struct._bfd_rel]
+saved_limit	i8*
+include_dir_maxlen	i32
+target_big_endian	i32
+emit_expr_with_reloc.dwarf_line	i32
+mri_pending_align	i32
+do_s_func.current_label	i8*
+lex_type	[256 x i8]
+original_case_string	[128 x i8]
+line_label	%struct.symbol*
+dot_symbol	%struct.symbol = type opaque
+now_seg	%struct.bfd_section*
+dot_value	i64
+buffer_limit	i8*
+optimize_align_code	i32
+include_dir_count	i32
+input_line_pointer	i8*
+listing	i32
+pop_override_ok	i32
+cond_obstack	%struct.obstack = type { i64, %struct._obstack_chunk*, i8*, i8*, i8*, %union.anon, i64, %union.anon.0, %union.anon.1, i8*, i8 }
+frag_now	%struct.frag*
+flag_readonly_data_in_text	i8
+flag_mri	i32
+dwarf_file_string	i32
+reg_section	%struct.bfd_section*
+notes	%struct.obstack = type { i64, %struct._obstack_chunk*, i8*, i8*, i8*, %union.anon, i64, %union.anon.0, %union.anon.1, i8*, i8 }
+po_hash	%struct.htab*
+macro_nest	i32
+generic_bignum	[0 x i16]
+pop_table_name	i8*
+bundle_lock_frag	%struct.frag*
+do_s_func.current_name	i8*
+bundle_lock_frchain	%struct.frchain*
+buffer	i8*
+bundle_align_p2	i32
+_bfd_std_section	[4 x %struct.bfd_section]
+need_pass_2	i32
+include_dirs	i8**
+chunksize	i32
+macro_defined	i32
+scrub_string_end	i8*
+bundle_lock_depth	i32
+debug_type	i32
+scrub_string	i8*
+dot_frag	%struct.frag*
+mri_common_symbol	%struct.symbol*
+abs_section_offset	i64
+text_section	%struct.bfd_section*
+frchain_now	%struct.frchain*
+read_a_source_file.last_eol	i8*
+stdoutput	%struct.bfd*
+input_from_string	i8
+zero_address_frag	%struct.frag = type { i64, i64, i64, i64, i64, %struct.symbol*, i8*, %struct.frag*, i8*, i32, %struct.list_info_struct*, i24, i32, i32, [4 x i8], %struct.i386_tc_frag_data, [1 x i8] }
+saved_ilp	i8*
+expr_section	%struct.bfd_section*
+bss_section	%struct.bfd_section*
+emit_expr_with_reloc.dwarf_file	i32
+data_section	%struct.bfd_section*
+now_subseg	i32
+listing_tail	%struct.list_info_struct*

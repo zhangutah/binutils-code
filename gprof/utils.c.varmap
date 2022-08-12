@@ -1,0 +1,7 @@
+demangle	i8
+core_bfd	%struct.bfd*
+debug_level	i32
+bsd_style_output	i8
+line_granularity	i8
+print_path	i8
+inline_file_names	i8

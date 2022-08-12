@@ -1,0 +1,18 @@
+listing	i32
+multibyte_handling	i32
+from_sb	%struct.sb = type { i8*, i64, i64 }
+macro_nest	i32
+physical_input_file	i8*
+logical_input_file	i8*
+logical_input_line	i32
+save_source	[1 x i8]
+next_saved_file	%struct.input_save*
+buffer_start	i8*
+physical_input_line	i32
+from_sb_is_expansion	i32
+buffer_length	i64
+sb_index	i64
+flag_no_comments	i8
+partial_size	i64
+max_macro_nest	i32
+partial_where	i8*

@@ -1,0 +1,18 @@
+ignore_zeros	i8
+print_descriptions	i8
+bsd_style_output	i8
+accum_time	double
+first_output	i8
+syms	[12 x %struct.Sym_Table]
+hist_dimension	[16 x i8]
+symtab	%struct.Sym_Table = type { i32, %struct.sym*, %struct.sym* }
+core_bfd	%struct.bfd*
+histograms	%struct.histogram*
+offset_to_code	i32
+total_time	double
+whoami	i8*
+debug_level	i32
+num_histograms	i32
+hz	i64
+hist_dimension_abbrev	i8
+hist_scale	double

@@ -1,0 +1,4 @@
+num_signal_names	i32
+signal_names	i8**
+strsigno.buf	[32 x i8]
+sys_nsig	i32

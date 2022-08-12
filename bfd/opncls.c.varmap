@@ -1,0 +1,3 @@
+bfd_id_counter	i32
+bfd_use_reserved_id	i32
+bfd_reserved_id_counter	i32

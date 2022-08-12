@@ -1,0 +1,9 @@
+is_end_of_line	[0 x i8]
+listing	i32
+lex_type	[0 x i8]
+input_line_pointer	i8*
+cond_obstack	%struct.obstack = type { i64, %struct._obstack_chunk*, i8*, i8*, i8*, %union.anon, i64, %union.anon.0, %union.anon.1, i8*, i8 }
+flag_mri	i32
+reg_section	%struct.bfd_section*
+macro_nest	i32
+current_cframe	%struct.conditional_frame*

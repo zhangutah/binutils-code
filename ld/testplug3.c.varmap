@@ -1,0 +1,29 @@
+claimfiles_tail_chain_ptr	%struct.claim_file**
+cleanup_ret	i32
+last_claimfile	%struct.claim_file*
+onall_symbols_read.resolutions	[10 x i8*]
+tv_register_all_symbols_read	i32 (i32 ()*)*
+linker_output	i32
+addfiles_tail_chain_ptr	%struct.add_file**
+tv_register_cleanup	i32 (i32 ()*)*
+all_symbols_read_ret	i32
+dumpresolutions	i8
+register_cleanup_hook	i8
+tv_register_claim_file	i32 (i32 (%struct.ld_plugin_input_file*, i32*)*)*
+onload_ret	i32
+tv_message	i32 (i32, i8*, ...)*
+register_allsymbolsread_hook	i8
+tv_get_symbols	i32 (i8*, i32, %struct.ld_plugin_symbol*)*
+tv_add_input_library	i32 (i8*)*
+tv_get_symbols_v2	i32 (i8*, i32, %struct.ld_plugin_symbol*)*
+tv_add_input_file	i32 (i8*)*
+addfiles_list	%struct.add_file*
+register_claimfile_hook	i8
+tv_get_input_file	i32 (i8*, %struct.ld_plugin_input_file*)*
+output_name	i8*
+tv_get_view	i32 (i8*, i8**)*
+tv_add_symbols	i32 (i8*, i32, %struct.ld_plugin_symbol*)*
+tv_release_input_file	i32 (i8*)*
+tv_set_extra_library_path	i32 (i8*)*
+claim_file_ret	i32
+claimfiles_list	%struct.claim_file*

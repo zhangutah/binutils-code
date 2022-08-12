@@ -1,0 +1,20 @@
+get_lto_visibility.buffer	[64 x i8]
+get_lto_kind.buffer	[64 x i8]
+report_plugin_symbols	i8
+get_lto_resolution.lto_resolution_str	[10 x i8*]
+_bfd_std_section	[4 x %struct.bfd_section]
+get_lto_resolution.buffer	[64 x i8]
+output_filename	i8*
+no_more_claiming	i8
+last_plugin_args_tail_chain_ptr	%struct.plugin_arg**
+plugins_tail_chain_ptr	%struct.plugin**
+plugin_pagesize	i64
+last_plugin	%struct.plugin*
+called_plugin	%struct.plugin*
+orig_callbacks	%struct.bfd_link_callbacks*
+orig_notice_all	i8
+plugin_callbacks	%struct.bfd_link_callbacks = type { i1 (%struct.bfd_link_info*, %struct.bfd*, i8*, %struct.bfd**)*, void (%struct.bfd_link_info*, %struct.bfd_link_hash_entry*, %struct.bfd*, %struct.bfd_section*, i64)*, void (%struct.bfd_link_info*, %struct.bfd_link_hash_entry*, %struct.bfd*, i32, i64)*, void (%struct.bfd_link_info*, %struct.bfd_link_hash_entry*, i32, %struct.bfd*, %struct.bfd_section*, i64)*, void (%struct.bfd_link_info*, i1, i8*, %struct.bfd*, %struct.bfd_section*, i64)*, void (%struct.bfd_link_info*, i8*, i8*, %struct.bfd*, %struct.bfd_section*, i64)*, void (%struct.bfd_link_info*, i8*, %struct.bfd*, %struct.bfd_section*, i64, i1)*, void (%struct.bfd_link_info*, %struct.bfd_link_hash_entry*, i8*, i8*, i64, %struct.bfd*, %struct.bfd_section*, i64)*, void (%struct.bfd_link_info*, i8*, %struct.bfd*, %struct.bfd_section*, i64)*, void (%struct.bfd_link_info*, i8*, %struct.bfd*, %struct.bfd_section*, i64)*, i1 (%struct.bfd_link_info*, %struct.bfd_link_hash_entry*, %struct.bfd_link_hash_entry*, %struct.bfd*, %struct.bfd_section*, i64, i32)*, void (i8*, ...)*, void (i8*, ...)*, void (i8*, ...)*, i1 (%struct.bfd_link_info*, %struct.bfd*, %struct.bfd_section*, %struct.bfd_section*, i1)*, void (%struct.elf_strtab_hash*)*, void (i32, %struct.elf_internal_sym*)*, void (i32, %struct.elf_internal_sym*)*, void ()* }
+error_plugin	i8*
+plugins_list	%struct.plugin*
+bfd_use_reserved_id	i32
+link_info	%struct.bfd_link_info = type { [9 x i8], i8, i8, i32, i64, i32, %struct.bfd_link_callbacks*, %struct.bfd_link_hash_table*, %struct.bfd_hash_table*, %struct.bfd_hash_table*, %struct.bfd_hash_table*, %struct.bfd_hash_table*, %struct.bfd*, %struct.bfd*, %struct.bfd*, %struct.bfd**, %struct.bfd_section*, %struct.bfd_sym_chain*, i8*, i8*, i8*, i32, i32, i32, i32, i32, i32, i32, i32, i32, i8*, i64, i64, i64, i32, i32, i64, i64, i64, i64, %struct.bfd_elf_dynamic_list*, %struct.bfd_elf_version_tree*, i64, i64 }

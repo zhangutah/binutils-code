@@ -1,0 +1,30 @@
+gmon_input	i32
+core_bfd	%struct.bfd*
+default_excluded_list	[7 x i8*]
+gmon_name	i8*
+inline_file_names	i8
+optind	i32
+line_granularity	i8
+whoami	i8*
+demangle	i8
+debug_level	i32
+print_descriptions	i8
+long_options	[42 x %struct.option]
+ignore_non_functions	i8
+bb_table_length	i32
+ignore_direct_calls	i8
+ignore_static_funcs	i8
+optarg	i8*
+output_style	i32
+print_path	i8
+a_out_name	i8*
+bb_min_calls	i64
+src_search_list	%struct.Search_List = type { %struct.search_list_elem*, %struct.search_list_elem* }
+file_format	i32
+bsd_style_output	i8
+bb_annotate_all_lines	i8
+function_mapping_file	i8*
+external_symbol_table	i8*
+output_width	i32
+create_annotation_files	i8
+ignore_zeros	i8

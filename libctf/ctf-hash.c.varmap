@@ -1,0 +1,2 @@
+htab_eq_pointer	i32 (i8*, i8*)*
+htab_hash_pointer	i32 (i8*)*

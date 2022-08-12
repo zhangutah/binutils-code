@@ -1,0 +1,7 @@
+first_output	i8
+debug_level	i32
+first_src_file	%struct.source_file*
+annotate_source.first_file	i8
+whoami	i8*
+src_search_list	%struct.Search_List = type { %struct.search_list_elem*, %struct.search_list_elem* }
+create_annotation_files	i8

@@ -1,0 +1,17 @@
+do_scrub_chars.one_char_buf	[1 x i8]
+do_scrub_chars.quotechar	i8
+multibyte_handling	i32
+multibyte_warn_count	i32
+input_buffer	[32768 x i8]
+last_char	i8
+out_string	i8*
+saved_input_len	i64
+lex	[256 x i8]
+state	i32
+old_state	i32
+out_buf	[20 x i8]
+add_newlines	i32
+saved_input	i8*
+i386_comment_chars	i8*
+mri_last_ch	i8
+mri_state	i8*

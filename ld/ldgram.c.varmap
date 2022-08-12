@@ -1,0 +1,14 @@
+config	%struct.ld_config_type = type { i8, i8, i8, i8, i8, i8, i8, i32, i8, i8, i8, i32, i8, i8, i8, i8, i8, i8, i8, i8*, %struct._IO_FILE*, i8*, i32, i64, i64, i8, i8, i8 }
+input_flags	%struct.lang_input_statement_flags = type { i16, %struct.lang_input_statement_flags* }
+command_line	%struct.args_type = type { i8, i8, i8, i8, i8, i8, i8, i8, i8*, i8, i8, i8, i32, i8*, i8*, i8*, i8*, i8*, i8**, i8*, i8* }
+sectype	i32
+ldfile_assumed_script	i8
+error_names	[20 x i8*]
+ldgram_had_keep	i8
+ldgram_vers_current_lang	i8*
+current_dynamic_list_p	%struct.bfd_elf_dynamic_list**
+yylval	%union.YYSTYPE = type { %struct.wildcard_spec }
+region	%struct.memory_region_struct*
+yynerrs	i32
+error_index	i32
+constructors_sorted	i8

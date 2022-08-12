@@ -1,0 +1,128 @@
+riscv_attr_tag	[6 x %struct.riscv_attr_tag_t]
+get_v850_elf_note_type.buff	[64 x i8]
+print_gnu_build_attribute_description.func_offset	i64
+print_gnu_build_attribute_description.func_end	i64
+print_gnu_build_attribute_description.global_end	i64
+get_stapsdt_note_type.buff	[64 x i8]
+get_ia64_vms_note_type.buff	[64 x i8]
+get_netbsd_elfcore_note_type.buff	[64 x i8]
+get_gnu_elf_note_type.buff	[64 x i8]
+get_ver_flags.buff	[128 x i8]
+get_lto_visibility.buffer	[30 x i8]
+get_riscv_symbol_other.buf	[32 x i8]
+get_ia64_symbol_other.res	[32 x i8]
+get_aarch64_symbol_other.buf	[32 x i8]
+get_symbol_binding.buff	[64 x i8]
+tic6x_unwind_regnames	[16 x i8*]
+dynamic_section_parisc_val.flags	[17 x %struct.anon.9]
+get_segment_type.buff	[32 x i8]
+get_group_flags.buff	[128 x i8]
+get_dynamic_type.buff	[64 x i8]
+get_elf_section_flags.buff	[1024 x i8]
+check_all	i8
+do_debug_macinfo	i32
+sym_base	i32
+demangle_flags	i32
+dwarf_start_die	i64
+decode_NDS32_machine_flags.VER_STRINGS	[3 x i8*]
+do_lto_syms	i8
+do_not_show_symbol_truncation	i8
+byte_get	i64 (i8*, i32)*
+do_dyn_syms	i8
+do_debug_abbrevs	i32
+decompress_dumps	i8
+process_links	i8
+get_lto_kind.buffer	[30 x i8]
+first_separate_info	%struct.separate_info*
+do_archive_index	i8
+get_note_type.buff	[64 x i8]
+show_name	i8
+get_file_type.buff	[64 x i8]
+dwarf_check	i32
+ba_cache	%struct.build_attr_cache = type { %struct.filedata*, i8*, i64, %struct.elf_internal_sym*, i64 }
+get_symbol_index_type.buff	[32 x i8]
+unicode_display	i32
+target_specific_reloc_handling.saved_sym1	i64
+do_unwind	i8
+do_follow_links	i32
+dump_ctf_parent_name	i8*
+do_using_dynamic	i8
+do_debugging	i8
+get_section_type_name.buff	[32 x i8]
+print_gnu_build_attribute_name.tmpbuf	[128 x i8]
+program_name	i8*
+apply_relocations.prev_reloc	i32
+do_segments	i8
+debug_displays	[0 x %struct.dwarf_section_display]
+optind	i32
+do_sections	i8
+get_data_encoding.buff	[32 x i8]
+is_32bit_elf	i8
+do_histogram	i8
+do_section_groups	i8
+byte_put	void (i8*, i64, i32)*
+do_dynamic	i8
+section_subset	i32*
+dump_ctf_strtab_name	i8*
+cmdline	%struct.dump_data = type { i8*, i32 }
+get_ppc64_symbol_other.buf	[64 x i8]
+options	[50 x %struct.option]
+do_notes	i8
+do_header	i8
+do_demangle	i8
+do_reloc	i8
+target_specific_reloc_handling.saved_sym.45	%struct.elf_internal_sym*
+dwarf_cutoff_level	i32
+printable_section_name.hex	[17 x i8]
+do_syms	i8
+get_machine_flags.buf	[1024 x i8]
+do_arch	i8
+do_dump	i8
+do_version	i8
+do_section_details	i8
+bfd_vmatoa.buf_pos	i32
+do_debug_aranges	i32
+arm_attr_public_tags	[46 x %struct.arm_attr_public_tag]
+bfd_vmatoa.buf	[4 x %struct.bfd_vmatoa_buf]
+process_section_groups.num_errs	i32
+printable_section_name.sec_name_buf	[257 x i8]
+do_debug_str_offsets	i32
+target_specific_reloc_handling.saved_sym	%struct.elf_internal_sym*
+target_specific_reloc_handling.saved_sym2	i64
+get_lto_sym_type.buffer	[30 x i8]
+optarg	i8*
+do_debug_pubnames	i32
+is_32bit_abs_reloc.prev_warn	i32
+do_wide	i32
+dump_ctf_symtab_name	i8*
+do_gdb_index	i32
+get_symbol_other.buff	[64 x i8]
+get_symbol_type.buff	[64 x i8]
+dump_sects_byname	%struct.dump_list_entry*
+decode_NDS32_machine_flags.ARCH_STRINGS	[5 x i8*]
+do_debug_lines	i32
+eh_addr_size	i32
+do_debug_pubtypes	i32
+do_checks	i8
+do_debug_frames	i32
+print_gnu_build_attribute_description.global_offset	i64
+do_debug_loc	i32
+do_debug_ranges	i32
+get_elf_class.buff	[32 x i8]
+do_debug_addr	i32
+do_debug_cu_index	i32
+do_debug_links	i32
+do_debug_str	i32
+do_trace_info	i32
+do_trace_abbrevs	i32
+do_trace_aranges	i32
+process_section_groups.num_group_errors	i32
+process_section_groups.warned	i8
+do_ctf	i8
+dynamic_relocations	[4 x %struct.anon.10]
+dynamic_section_mips_val.opts	[15 x i8*]
+target_specific_reloc_handling.value	i64
+get_osabi_name.buff	[32 x i8]
+decode_NDS32_machine_flags.ABI_STRINGS	[6 x i8*]
+do_debug_info	i32
+get_machine_name.buff	[64 x i8]

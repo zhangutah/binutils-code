@@ -1,0 +1,6 @@
+_bfd_assert_handler	void (i8*, i8*, i8*, i32)*
+input_bfd	%struct.bfd*
+_bfd_error_program_name	i8*
+bfd_error	i32
+input_error	i32
+_bfd_error_internal	void (i8*, %struct.__va_list_tag*)*

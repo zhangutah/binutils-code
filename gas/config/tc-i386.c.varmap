@@ -1,0 +1,103 @@
+i386_displacement.aux_templates	%struct.templates = type { %struct.insn_template*, %struct.insn_template* }
+maybe_adjust_templates.aux_templates	%struct.templates = type { %struct.insn_template*, %struct.insn_template* }
+disp_expressions	[2 x %struct.expressionS]
+output_invalid_buf	[8 x i8]
+align_branch_prefix_size	i32
+show_arch.message	[81 x i8]
+x86_cie_data_alignment	i32
+x86_dwarf2_return_column	i32
+use_unaligned_vector_move	i32
+operand_chars	[256 x i8]
+reg_k0	%struct.reg_entry*
+reg_ds	%struct.reg_entry*
+reg_es	%struct.reg_entry*
+mnemonic_chars	[256 x i8]
+isa64	i32
+x86_elf_abi	i32
+lex_type	[0 x i8]
+default_arch	i8*
+now_seg	%struct.bfd_section*
+handle_large_common.lbss_section	%struct.bfd_section*
+no_cond_jump_promotion	i32
+bss_section	%struct.bfd_section*
+im_expressions	[2 x %struct.expressionS]
+reg_st0	%struct.reg_entry*
+operand_check	i32
+cpu_arch_tune	i32
+cons_sign	i32
+op_hash	%struct.htab*
+now_subseg	i32
+elf_com_section_ptr	%struct.bfd_section*
+cpu_arch_flags	{ { i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8, i8 } }
+flag_code	i32
+cpu_arch_isa	i32
+lfence_before_ret	i32
+x86_isa_1_used	i32
+operand_special_chars	[23 x i8]
+zero_address_frag	%struct.frag = type { i64, i64, i64, i64, i64, %struct.symbol*, i8*, %struct.frag*, i8*, i32, %struct.list_info_struct*, i24, i32, i32, [4 x i8], %struct.i386_tc_frag_data, [1 x i8] }
+intel_syntax	i32
+identifier_chars	[256 x i8]
+allow_index_reg	i32
+omit_lock_prefix	i32
+quiet_warnings	i32
+cpu_arch_name	i8*
+reg_hash	%struct.htab*
+allow_naked_reg	i32
+register_prefix	i8*
+reg_ss	%struct.reg_entry*
+save_stack	[32 x i8]
+is_end_of_line	[0 x i8]
+stackop_size	i8
+cpu_sub_arch_name	i8*
+last_insn	%struct.anon.23 = type { %struct.bfd_section*, i8*, i8*, i32, i32 }
+sse_check	i32
+evexwig	i32
+GOT_symbol	%struct.symbol*
+register_chars	[256 x i8]
+reg_eax	%struct.reg_entry*
+stdoutput	%struct.bfd*
+i	%struct._i386_insn = type { %struct.insn_template, i8, i8, i32, i32, i32, i32, i32, [5 x %union.i386_operand_type], [5 x %union.i386_op], [5 x i32], [5 x i32], %struct.reg_entry*, %struct.reg_entry*, i32, [2 x %struct.reg_entry*], i8*, i32, [7 x i8], i8, i8, i32, i8, %struct.modrm_byte, i32, i32, %struct.sib_byte, %struct.vex_prefix, %struct.Mask_Operation, %struct.RC_Operation, %struct.Broadcast_Operation, i32, i32, i32, i8, i8, i32, i8*, i8*, i8*, i8*, i32 }
+object_64bit	i32
+reg_section	%struct.bfd_section*
+evexrcig	i32
+this_operand	i32
+current_templates	%struct.templates*
+add_bnd_prefix	i32
+optimize	i32
+save_stack_p	i8*
+abs_symbol	%struct.symbol = type opaque
+align_branch_power	i32
+frag_now	%struct.frag*
+avxscalar	i32
+optimize_for_space	i32
+tc_x86_frame_initial_instructions.sp_regno	[2 x i32]
+cpu_arch_isa_flags	%union.i386_cpu_flags = type { %struct.anon }
+vexwig	i32
+use_rela_relocations	i32
+evexlig	i32
+x86_used_note	i32
+check_cpu_arch_compatible.arch	i8*
+lfence_before_indirect_branch	i32
+lfence_after_load	i32
+sse2avx	i32
+_bfd_std_section	[4 x %struct.bfd_section]
+x86_feature_2_used	i32
+intel_state	%struct.anon.31 = type { i32, i32, i32, i32, i32, i32, i32, %union.i386_operand_type, %struct.reg_entry*, %struct.reg_entry*, i64, %struct.symbol* }
+i386_index_check.bx	[3 x i8*]
+avoid_fence	i32
+abs_section_offset	i64
+_bfd_elf_large_com_section	%struct.bfd_section = type { i8*, i32, i32, i32, %struct.bfd_section*, %struct.bfd_section*, i32, i24, i64, i64, i64, i64, i64, %struct.relax_table*, i32, i64, %struct.bfd_section*, i32, %struct.reloc_cache_entry*, %struct.reloc_cache_entry**, i32, i64, i64, i64, i8*, i8*, %struct.lineno_cache_entry*, i32, i32, %struct.bfd_section*, i64, i32, i8*, %struct.relent_chain*, %struct.bfd*, %struct.bfd_symbol*, %struct.bfd_symbol**, %union.anon.22, %union.anon.22, %struct.bfd_section* }
+disallow_64bit_reloc	i32
+expr_section	%struct.bfd_section*
+i386_index_check.di_si	[3 x [2 x i8*]]
+shared	i32
+cpu_arch_tune_set	i32
+flag_debug	i8
+allow_pseudo_reg	i32
+optimize_align_code	i32
+generate_relax_relocations	i32
+intel_mnemonic	i32
+align_branch	i32
+input_line_pointer	i8*
+cpu_arch_tune_flags	%union.i386_cpu_flags = type { %struct.anon }
+tls_get_addr	i8*

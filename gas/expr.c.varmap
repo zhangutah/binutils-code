@@ -1,0 +1,22 @@
+symbols_case_sensitive	i32
+symbol_lookup_or_make.seen	[2 x %struct.symbol**]
+literal_prefix_dollar_hex	i8
+lex_type	[0 x i8]
+input_line_pointer	i8*
+generic_floating_point_number	%struct.FLONUM_STRUCT = type { i16*, i16*, i16*, i64, i8 }
+dot_frag	%struct.frag*
+symbol_lookup_or_make.nr_seen	[2 x i32]
+finalize_syms	i32
+zero_address_frag	%struct.frag = type { i64, i64, i64, i64, i64, %struct.symbol*, i8*, %struct.frag*, i8*, i32, %struct.list_info_struct*, i24, i32, i32, [4 x i8], %struct.i386_tc_frag_data, [1 x i8] }
+input_from_string	i8
+frag_now	%struct.frag*
+is_end_of_line	[0 x i8]
+reg_section	%struct.bfd_section*
+_bfd_std_section	[4 x %struct.bfd_section]
+expr_symbol_lines	%struct.expr_symbol_line*
+now_seg	%struct.bfd_section*
+expr_section	%struct.bfd_section*
+abs_section_offset	i64
+dot_symbol	%struct.symbol = type opaque
+generic_bignum	[26 x i16]
+dot_value	i64

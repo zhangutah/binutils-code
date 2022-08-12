@@ -1,0 +1,6 @@
+_bfd_std_section	[4 x %struct.bfd_section]
+dir_names	[16 x i8*]
+sizeof_tables_and_entries	i32
+sizeof_leaves	i32
+debug_type_names	[17 x i8*]
+sizeof_strings	i32

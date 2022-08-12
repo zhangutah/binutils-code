@@ -1,0 +1,8 @@
+yylineno	i32
+yylval	%union.YYSTYPE = type { i8* }
+yy_hold_char	i8
+yy_c_buf_p	i8*
+yy_last_accepting_cpos	i8*
+yy_flex_debug	i32
+linenumber	i32
+yytext	i8*

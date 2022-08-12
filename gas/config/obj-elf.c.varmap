@@ -1,0 +1,24 @@
+is_end_of_line	[0 x i8]
+input_line_pointer	i8*
+stdoutput	%struct.bfd*
+_bfd_std_section	[4 x %struct.bfd_section]
+section_stack	%struct.section_stack*
+obj_elf_ident.comment_section	%struct.bfd_section*
+frag_now	%struct.frag*
+symbol_rootP	%struct.symbol*
+notes	%struct.obstack = type { i64, %struct._obstack_chunk*, i8*, i8*, i8*, %union.anon.23, i64, %union.anon.24, %union.anon.25, i8*, i8 }
+obj_elf_change_section.unused_match	%struct.elf_section_match = type { i8*, i8*, i32, i32, i64, i32 }
+elf_com_section_ptr	%struct.bfd_section*
+symbol_lastP	%struct.symbol*
+flag_mri	i32
+zero_address_frag	%struct.frag = type { i64, i64, i64, i64, i64, %struct.symbol*, i8*, %struct.frag*, i8*, i32, %struct.list_info_struct*, i24, i32, i32, [4 x i8], %struct.i386_tc_frag_data, [1 x i8] }
+lex_type	[0 x i8]
+previous_section	%struct.bfd_section*
+now_seg	%struct.bfd_section*
+now_subseg	i32
+previous_subsection	i32
+flag_sectname_subst	i32
+bss_section	%struct.bfd_section*
+recorded_attributes	%struct.recorded_attribute_info*
+flag_allow_nonconst_size	i32
+groups	%struct.group_list = type { %struct.bfd_section**, i32, %struct.htab* }

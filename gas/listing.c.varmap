@@ -1,0 +1,35 @@
+print_source.next_free_line	i32
+print_source.cached_lines	[3 x %struct.cached_line]
+last_open_file_info	%struct.file_info_struct*
+debugging_pseudo.in_debug	i32
+expr_section	%struct.bfd_section*
+symbol_rootP	%struct.symbol*
+reg_section	%struct.bfd_section*
+paper_width	i32
+data_buffer	i8*
+listing_lhs_cont_lines	i32
+head	%struct.list_info_struct*
+is_end_of_line	[0 x i8]
+_bfd_std_section	[4 x %struct.bfd_section]
+on_page	i32
+input_line_pointer	i8*
+subtitle	i8*
+listing_newline.last_file	i8*
+file_info_head	%struct.file_info_struct*
+listing	i32
+listing_lhs_width_second	i32
+frag_now	%struct.frag*
+page	i32
+listing_tail	%struct.list_info_struct*
+paper_height	i32
+frchain_now	%struct.frchain*
+out_file_name	i8*
+listing_newline.last_line	i32
+last_open_file	%struct._IO_FILE*
+title	i8*
+listing_lhs_width	i32
+list_file	%struct._IO_FILE*
+eject	i32
+now_seg	%struct.bfd_section*
+fn	i8*
+listing_rhs_width	i32

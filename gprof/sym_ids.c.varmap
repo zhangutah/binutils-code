@@ -1,0 +1,8 @@
+non_existent_file	%struct.source_file = type { %struct.source_file*, i8*, i64, i32, i32, i8** }
+core_bfd	%struct.bfd*
+table_name	[12 x i8*]
+right_ids	%struct.Sym_Table = type { i32, %struct.sym*, %struct.sym* }
+id_list	%struct.sym_id*
+syms	[12 x %struct.Sym_Table]
+symtab	%struct.Sym_Table = type { i32, %struct.sym*, %struct.sym* }
+debug_level	i32

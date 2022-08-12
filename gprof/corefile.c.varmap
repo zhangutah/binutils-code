@@ -1,0 +1,20 @@
+ignore_non_functions	i8
+a_out_name	i8*
+debug_level	i32
+name	[1024 x i8]
+buf	[1024 x i8]
+ignore_direct_calls	i8
+core_num_syms	i32
+whoami	i8*
+symbol_map_count	i32
+core_syms	%struct.bfd_symbol**
+core_text_sect	%struct.bfd_section*
+min_insn_size	i32
+core_text_space	i8*
+ignore_static_funcs	i8
+offset_to_code	i32
+address	[1024 x i8]
+symtab	%struct.Sym_Table = type { i32, %struct.sym*, %struct.sym* }
+core_bfd	%struct.bfd*
+symbol_map	%struct.function_map*
+function_mapping_file	i8*

@@ -1,0 +1,26 @@
+print_berkeley_or_gnu_format.files_seen	i32
+textsize	i64
+show_totals	i32
+show_help	i32
+show_version	i32
+optind	i32
+radix	i32
+long_options	[8 x %struct.option]
+program_name	i8*
+optarg	i8*
+total_textsize	i64
+common_size	i64
+selected_output_format	i32
+target	i8*
+total_bsssize	i64
+_bfd_std_section	[4 x %struct.bfd_section]
+total_datasize	i64
+return_code	i32
+svi_namelen	i32
+show_common	i32
+svi_vmalen	i32
+svi_total	i64
+svi_maxvma	i64
+svi_sizelen	i32
+bsssize	i64
+datasize	i64

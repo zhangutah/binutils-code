@@ -1,0 +1,5 @@
+out_file_name	i8*
+flag_no_warnings	i32
+warning_count	i32
+identify.identified	i32
+error_count	i32

@@ -1,0 +1,4 @@
+_bfd_std_section	[4 x %struct.bfd_section]
+_bfd_compute_and_write_armap.report_plugin_err	i8
+adjust_relative_path.pathbuf_len	i32
+adjust_relative_path.pathbuf	i8*

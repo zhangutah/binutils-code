@@ -1,0 +1,27 @@
+segments	%struct.segment_struct*
+current_dynamic_list_p	%struct.bfd_elf_dynamic_list**
+g_switch_value	i32
+demangling	i8
+opterr	i32
+command_line	%struct.args_type = type { i8, i8, i8, i8, i8, i8, i8, i8, i8*, i8, i8, i8, i32, i8*, i8*, i8*, i8*, i8*, i8**, i8*, i8* }
+program_name	i8*
+optarg	i8*
+config	%struct.ld_config_type = type { i8, i8, i8, i8, i8, i8, i8, i32, i8, i8, i8, i32, i8, i8, i8, i8, i8, i8, i8, i8*, %struct._IO_FILE*, i8*, i32, i64, i64, i8, i8, i8 }
+saved_script_handle	%struct._IO_FILE*
+output_filename	i8*
+lex_string	i8*
+optind	i32
+parser_input	i32
+force_make_executable	i8
+ld_sysroot	i8*
+trace_files	i32
+overflow_cutoff_limit	i32
+report_plugin_symbols	i8
+error_handling_script	i8*
+verbose	i8
+link_info	%struct.bfd_link_info = type { [9 x i8], i8, i8, i32, i64, i32, %struct.bfd_link_callbacks*, %struct.bfd_link_hash_table*, %struct.bfd_hash_table*, %struct.bfd_hash_table*, %struct.bfd_hash_table*, %struct.bfd_hash_table*, %struct.bfd*, %struct.bfd*, %struct.bfd*, %struct.bfd**, %struct.bfd_section*, %struct.bfd_sym_chain*, i8*, i8*, i8*, i32, i32, i32, i32, i32, i32, i32, i32, i32, i8*, i64, i64, i64, i32, i32, i64, i64, i64, i64, %struct.bfd_elf_dynamic_list*, %struct.bfd_elf_version_tree*, i64, i64 }
+parse_args.defsym_count	i32
+sort_section	i32
+previous_script_handle	%struct._IO_FILE*
+input_flags	%struct.lang_input_statement_flags = type { i16, %struct.lang_input_statement_flags* }
+version_printed	i8

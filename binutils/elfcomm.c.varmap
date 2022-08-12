@@ -1,0 +1,2 @@
+byte_get	i64 (i8*, i32)*
+program_name	i8*

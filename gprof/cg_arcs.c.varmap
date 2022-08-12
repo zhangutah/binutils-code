@@ -1,0 +1,10 @@
+num_cycles	i32
+ignore_direct_calls	i8
+syms	[12 x %struct.Sym_Table]
+arc_add.maxarcs	i32
+numarcs	i32
+debug_level	i32
+symtab	%struct.Sym_Table = type { i32, %struct.sym*, %struct.sym* }
+print_time	double
+cycle_header	%struct.sym*
+arcs	%struct.arc**

@@ -1,0 +1,6 @@
+functionname	i8*
+demangle_flags	i32
+pc	i64
+found	i8
+line	i32
+filename	i8*

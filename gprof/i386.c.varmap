@@ -1,0 +1,5 @@
+symtab	%struct.Sym_Table = type { i32, %struct.sym*, %struct.sym* }
+core_text_sect	%struct.bfd_section*
+debug_level	i32
+core_bfd	%struct.bfd*
+core_text_space	i8*

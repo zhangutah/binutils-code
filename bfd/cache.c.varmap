@@ -1,0 +1,4 @@
+bfd_last_cache	%struct.bfd*
+open_files	i32
+cache_bmmap.pagesize_m1	i64
+max_open_files	i32

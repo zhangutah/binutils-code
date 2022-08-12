@@ -1,0 +1,21 @@
+stdoutput	%struct.bfd*
+compact_eh	i8
+flag_traditional_format	i32
+cfi_sections_set	i8
+last_fde_data	%struct.fde_entry**
+notes	%struct.obstack = type { i64, %struct._obstack_chunk*, i8*, i8*, i8*, %union.anon.5, i64, %union.anon.6, %union.anon.7, i8*, i8 }
+frag_now	%struct.frag*
+x86_dwarf2_return_column	i32
+all_cfi_sections	i32
+now_subseg	i32
+now_seg	%struct.bfd_section*
+frchain_now	%struct.frchain*
+x86_cie_data_alignment	i32
+input_line_pointer	i8*
+all_fde_data	%struct.fde_entry*
+lex_type	[0 x i8]
+dwcfi_hash	%struct.htab*
+cie_root	%struct.cie_entry*
+last_fde	%struct.fde_entry*
+flag_dwarf_cie_version	i32
+cfi_sections	i32

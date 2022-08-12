@@ -1,0 +1,4 @@
+out_file_name	i8*
+column	i32
+dep_file	i8*
+dep_chain	%struct.dependency*

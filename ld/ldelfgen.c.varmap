@@ -1,0 +1,6 @@
+constructor_list	%struct.statement_list = type { %union.lang_statement_union*, %union.lang_statement_union** }
+ldelf_map_segments.done_link_order_scan	i8
+link_info	%struct.bfd_link_info = type { [9 x i8], i8, i8, i32, i64, i32, %struct.bfd_link_callbacks*, %struct.bfd_link_hash_table*, %struct.bfd_hash_table*, %struct.bfd_hash_table*, %struct.bfd_hash_table*, %struct.bfd_hash_table*, %struct.bfd*, %struct.bfd*, %struct.bfd*, %struct.bfd**, %struct.bfd_section*, %struct.bfd_sym_chain*, i8*, i8*, i8*, i32, i32, i32, i32, i32, i32, i32, i32, i32, i8*, i64, i64, i64, i32, i32, i64, i64, i64, i64, %struct.bfd_elf_dynamic_list*, %struct.bfd_elf_version_tree*, i64, i64 }
+lang_phdr_list	%struct.lang_phdr*
+statement_list	%struct.statement_list = type { %union.lang_statement_union*, %union.lang_statement_union** }
+lang_os_list	%struct.statement_list = type { %union.lang_statement_union*, %union.lang_statement_union** }

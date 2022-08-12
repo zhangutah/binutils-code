@@ -1,0 +1,4 @@
+yylval	%union.YYSTYPE = type { i8* }
+verbose	i32
+linenumber	i32
+yynerrs	i32

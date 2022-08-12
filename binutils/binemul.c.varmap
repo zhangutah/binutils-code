@@ -1,0 +1,1 @@
+bin_vanilla_emulation	%struct.bin_emulation_xfer_struct = type { void (%struct._IO_FILE*)*, i1 (%struct.bfd**, %struct.bfd*, i1, i1)*, i1 (%struct.bfd**, %struct.bfd*, i1)*, i1 (i8*)* }

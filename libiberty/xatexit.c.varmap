@@ -1,0 +1,2 @@
+xatexit_head	%struct.xatexit*
+_xexit_cleanup	void ()*

@@ -1,0 +1,2 @@
+bfd_default_vector	[0 x %struct.bfd_target*]
+_bfd_section_id	i32

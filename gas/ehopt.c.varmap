@@ -1,0 +1,6 @@
+_bfd_std_section	[4 x %struct.bfd_section]
+now_seg	%struct.bfd_section*
+flag_traditional_format	i32
+check_eh_frame.debug_frame_data	%struct.frame_data = type { i32, i32, %struct.cie_info, %struct.symbol*, %struct.frag*, i32, i32, i32 }
+frag_now	%struct.frag*
+check_eh_frame.eh_frame_data	%struct.frame_data = type { i32, i32, %struct.cie_info, %struct.symbol*, %struct.frag*, i32, i32, i32 }

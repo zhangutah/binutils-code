@@ -1,0 +1,8 @@
+current_plugin	%struct.plugin_list_entry*
+plugin_name	i8*
+plugin_list	%struct.plugin_list_entry*
+_bfd_std_section	[4 x %struct.bfd_section]
+plugin_program_name	i8*
+build_plugin_list.path	[2 x i8*]
+has_plugin_list	i32
+ld_plugin_object_p	void (%struct.bfd*)* (%struct.bfd*)*

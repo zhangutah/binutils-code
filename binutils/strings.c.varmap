@@ -1,0 +1,16 @@
+unget_part_char.tmp	[4 x i8]
+optind	i32
+unicode_display	i32
+address_radix	i32
+print_addresses	i8
+include_all_whitespace	i8
+program_name	i8*
+print_filenames	i8
+long_options	[13 x %struct.option]
+string_min	i32
+target	i8*
+encoding_bytes	i32
+datasection_only	i8
+encoding	i8
+optarg	i8*
+output_separator	i8*

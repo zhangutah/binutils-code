@@ -1,0 +1,4 @@
+num_error_names	i32
+error_names	i8**
+strerrno.buf	[32 x i8]
+sys_nerr	i32

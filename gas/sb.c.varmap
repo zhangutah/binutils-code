@@ -1,0 +1,2 @@
+scrub_position	i8*
+sb_to_scrub	%struct.sb*

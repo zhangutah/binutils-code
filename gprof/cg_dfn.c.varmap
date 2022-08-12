@@ -1,0 +1,5 @@
+dfn_counter	i32
+debug_level	i32
+dfn_maxdepth	i32
+dfn_stack	%struct.DFN_Stack*
+dfn_depth	i32

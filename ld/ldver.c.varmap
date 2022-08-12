@@ -1,0 +1,1 @@
+ld_emulations	[0 x %struct.ld_emulation_xfer_struct*]

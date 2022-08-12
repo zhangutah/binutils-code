@@ -1,0 +1,2 @@
+elfcore_grok_nto_note.tid	i64
+_bfd_std_section	[4 x %struct.bfd_section]

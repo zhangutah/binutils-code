@@ -1,0 +1,2 @@
+getpwd.failure_errno	i32
+getpwd.pwd	i8*

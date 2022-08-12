@@ -1,0 +1,2 @@
+float_mem	[64 x i8*]
+prefix_name.rexes	[16 x i8*]

@@ -1,0 +1,9 @@
+asneeded_list_tail	%struct.asneeded_minfo**
+link_info	%struct.bfd_link_info = type { [9 x i8], i8, i8, i32, i64, i32, %struct.bfd_link_callbacks*, %struct.bfd_link_hash_table*, %struct.bfd_hash_table*, %struct.bfd_hash_table*, %struct.bfd_hash_table*, %struct.bfd_hash_table*, %struct.bfd*, %struct.bfd*, %struct.bfd*, %struct.bfd**, %struct.bfd_section*, %struct.bfd_sym_chain*, i8*, i8*, i8*, i32, i32, i32, i32, i32, i32, i32, i32, i32, i8*, i64, i64, i64, i32, i32, i64, i64, i64, i64, %struct.bfd_elf_dynamic_list*, %struct.bfd_elf_version_tree*, i64, i64 }
+demangling	i8
+program_name	i8*
+vfinfo.last_file	i8*
+lineno	i32
+config	%struct.ld_config_type = type { i8, i8, i8, i8, i8, i8, i8, i32, i8, i8, i8, i32, i8, i8, i8, i8, i8, i8, i8, i8*, %struct._IO_FILE*, i8*, i32, i64, i64, i8, i8, i8 }
+vfinfo.last_bfd	%struct.bfd*
+vfinfo.last_function	i8*

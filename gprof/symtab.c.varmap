@@ -1,0 +1,2 @@
+core_text_sect	%struct.bfd_section*
+debug_level	i32

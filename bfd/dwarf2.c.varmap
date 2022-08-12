@@ -1,0 +1,2 @@
+scan_unit_for_symbols.previous_failed_abbrev	i32
+htab_hash_pointer	i32 (i8*)*

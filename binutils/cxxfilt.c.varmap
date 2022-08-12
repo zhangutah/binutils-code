@@ -1,0 +1,7 @@
+main.mbuffer	[32767 x i8]
+current_demangling_style	i32
+strip_underscore	i32
+program_name	i8*
+flags	i32
+optarg	i8*
+optind	i32

@@ -1,0 +1,4 @@
+srec_init.inited	i8
+_bfd_srec_len	i32
+_bfd_std_section	[4 x %struct.bfd_section]
+_bfd_srec_forceS3	i8

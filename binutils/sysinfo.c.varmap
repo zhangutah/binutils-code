@@ -1,0 +1,11 @@
+names	[3 x i8*]
+name	i8*
+yylval	%union.YYSTYPE = type { i8* }
+yynerrs	i32
+it	i8*
+oldrepeat	i8*
+writecode	i8
+rdepth	i32
+pnames	[3 x i8*]
+code	i32
+repeat	i8*

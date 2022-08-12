@@ -1,0 +1,2 @@
+_bfd_section_already_linked_table	%struct.bfd_hash_table = type { %struct.bfd_hash_entry**, {}*, i8*, i32, i32, i32, i8 }
+_bfd_std_section	[4 x %struct.bfd_section]
